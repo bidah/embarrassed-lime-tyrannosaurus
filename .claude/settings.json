@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [{ "type": "command", "command": "inti-push-hook", "timeout": 300 }]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": ["Bash(native-now push:*)", "Bash(native-now doctor:*)", "Bash(agent-device:*)"]
+  }
+}

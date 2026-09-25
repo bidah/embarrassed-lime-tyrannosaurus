@@ -1,0 +1,5 @@
+node_modules/
+dist-genux/
+.native-now/
+.expo/
+*.tsbuildinfo
